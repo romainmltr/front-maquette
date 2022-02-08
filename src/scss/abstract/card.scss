@@ -1,0 +1,17 @@
+.part_card  {
+    @apply grid grid-cols-1 lg:grid-cols-3 grid-rows-1 gap-4 
+}
+.card {
+    @apply grid grid-rows-2 border-solid border-2;
+}
+.part_card  {
+    @apply grid grid-cols-1 lg:grid-cols-3 grid-rows-1 gap-4
+}
+.card {
+    @apply grid grid-rows-2 border-solid border-2;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .part_card {
+        @apply w-3/4
+    }
+  }

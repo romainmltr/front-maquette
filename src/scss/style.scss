@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import"../scss/abstract/minxin";
+@import	"../scss/abstract/variable";
+@import	"../scss/layout/footer";
+@import	"../scss/layout/header";
+@import "../scss/abstract/card.scss";
+
+@font-face {
+    font-family: lato-regular;
+    src: url(/src/font/Lato-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(/src/font/SourceSansPro-Regular.ttf);
+}
+
+
+.width-m {
+    @apply w-4/5 m-auto;
+}
+
+
+html {
+	font-size: 16px;
+}
+:root{
+    
+}
+
+.width-m {
+    @apply w-4/5 m-auto ;
+}
+.padding-m{
+    @apply px-16;
+}
+.footer-text {
+    @apply w-3/4 text-white
+}
+.semi-bold {
+    @apply font-bold text-white
+}
+.title-div {
+    @apply text-gris-foncé 
+}
+
+.map {
+    @apply bg-no-repeat bg-cover grid grid-cols-6 grid-rows-6 gap-4 lg:grid-cols-12
+}
+
+.subtitle-map{
+    @apply text-m uppercase font-semibold pt-4
+}
+.img-hidden{
+    @apply hidden lg:block
+}
+
+.container_card{
+    @apply flex flex-col
+}
